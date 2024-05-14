@@ -1,0 +1,19 @@
+name: SurrogateModel
+channels:
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main
+  - conda-forge
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/
+  - defaults
+dependencies:
+  - python=3.8.18
+  - pip
+  - pip:
+    - numpy
+    - scipy
+    - scikit-learn
+    - pyDOE3
+    - Cython
+    - smt
+  - jupyter
+  - notebook
