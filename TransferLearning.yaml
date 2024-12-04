@@ -18,3 +18,5 @@ dependencies:
   - scikit-learn
   - seaborn
   - tensorflow
+  - pip:
+    - bayesian-torch
