@@ -15,3 +15,6 @@ dependencies:
   - Scipy=1.10
   - jupyter
   - notebook
+  - scikit-learn
+  - seaborn
+  - tensorflow
